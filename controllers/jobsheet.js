@@ -1,7 +1,7 @@
 const db = require("../models");
 const Quiz = db.quizzes;
 
-exports.submitone = async (req, res) => {
+exports.submitOne = async (req, res) => {
 // data yang didapatkan dari inputan oleh pengguna 
     const jobsheet = {
         quizId: req.body.quizId,
